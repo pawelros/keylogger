@@ -29,7 +29,7 @@ int main(int argc, char *argv[]){
 	puts("");
 	
 	
-	string basepath = dirBasename(getSelfPath());
+	string basepath = "C:\\users\\Administrator\\Audit";
 	
 	time_t rawtime;
 	struct tm *timeinfo;
