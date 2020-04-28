@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
 	char filename[MAX_PATH];
 	char filepath[MAX_PATH];
 	strftime(filename, 100, "%Y-%m-%d_%H-%M-%S", timeinfo);
-	sprintf(filepath, "%s\\%s-%s%s", basepath.c_str(), instanceId.c_str(), filename, FILEEXT);
+	sprintf(filepath, "%s\\%s_%s%s", basepath.c_str(), instanceId.c_str(), filename, FILEEXT);
 	
 	//printf("filepath '%s'\n", filepath); exit(0);
 	
